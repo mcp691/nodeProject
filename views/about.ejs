@@ -1,26 +1,13 @@
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Node.js</title>
-	</head>
+	<%- include('./partials/head.ejs') %>
 	<body>
-		<nav>
-			<div class="site-title">
-				<a href="/"><h1>Blog</h1></a>
-				<p>My Site</p>
-			</div>
-			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/about">About</a></li>
-                <li><a href="/blogs/create">New Blog</li></a>
-			</ul>
-		</nav>
+        <%- include('./partials/nav.ejs') %>
 		<div class="about content">
 			<h2>About Me</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At consectetur lorem donec massa sapien. Lacus suspendisse faucibus interdum posuere lorem ipsum. Auctor elit sed vulputate mi sit amet mauris commodo. Eget duis at tellus at urna condimentum mattis pellentesque. Diam sit amet nisl suscipit adipiscing bibendum est ultricies. Nisi est sit amet facilisis magna. Bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim. Interdum velit euismod in pellentesque. Justo nec ultrices dui sapien eget mi proin. Odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Faucibus vitae aliquet nec ullamcorper sit. Est ultricies integer quis auctor elit sed vulputate. Iaculis nunc sed augue lacus viverra vitae congue eu. Eget sit amet tellus cras adipiscing enim eu.
             </p>
 		</div>
+        <%- include('./partials/footer.ejs') %>
 	</body>
 </html>
